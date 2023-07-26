@@ -1,6 +1,6 @@
 # HPE GreenLake for File Storage Data Reduction Estimation Probe
 
-The HPE GreenLake for File Storage Data Reduction Estimation Probe provides estimated data reduction rate achieable based on an example data set.
+This tool is designed to run against an existing one or more File Storage mounts and provide an accurate estimation of how much data reduction you should expect to see when moving your data set to an HPE GreenLake for File Storage solution.
 
 # Synopsis
 
@@ -9,4 +9,4 @@ This documentation shows how to [check the prerequisites](prerequisites/index.md
 
 # Support
 
-The HPE GreenLake for File Storage Data Reduction Estimation Probe is supported by HPE when used with HPE storage arrays on valid support contracts. Send email to [gl4fprobe@hpe.com](mailto:gl4fprobe@hpe.com) to get started with any issue that requires assistance. Engage your HPE representative for other means to contact HPE Storage support directly.
+Typically you would work with your HPE Sales engineer to deploy and use The HPE GreenLake for File Storage Data Reduction Estimation Probe. Should you have issues or additional questions you can contact us at [gl4fprobe@hpe.com](mailto:gl4fprobe@hpe.com).
