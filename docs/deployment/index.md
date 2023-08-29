@@ -10,9 +10,33 @@ You can download the bundle from here: [935553.probe.bundle.tar.gz](935553.probe
 
 Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:
 
-```bash
+<!-- ```bash
 wget "https://github.com/hpe-storage/hpe-gl4f-probe/deployment/935553.probe.bundle.tar.gz" -O 935553.probe.bundle.tar.gz
+``` -->
+
+Americas:
+```markdown
+wget "https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-20T12:46:21Z&se=2023-07-31T20:46:21Z&spr=https&sv=2021-12-02&sr=b&sig=r%2B0sacAOQ68zqS0rtXhrC9XeHK5pC08m3ImkMUE6aac%3D" -O 935553.probe.bundle.tar.gz
 ```
+
+Europe:
+
+```markdown
+wget "https://vastdatasupporteuwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:51Z&se=2026-04-24T23:46:51Z&spr=https&sv=2021-12-02&sr=b&sig=Nska0jbs3Fz%2BrX7IavgLBq8lZeoLyo3n2sQ%2Bz3CrdOM%3D" -O 935553.probe.bundle.tar.gz
+```
+
+Asia/Pacific:
+
+```markdown
+wget "https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:47:22Z&se=2026-04-24T23:47:22Z&spr=https&sv=2021-12-02&sr=b&sig=EURsk5b4LHKM%2Bk32qyVMiab%2FZXnfIodpDiTCm5wB%2F1w%3D" -O 935553.probe.bundle.tar.gz 
+```
+
+South Africa:
+
+```markdown
+wget "https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bun
+```
+
 
 ## Expand & Verify Download
 
