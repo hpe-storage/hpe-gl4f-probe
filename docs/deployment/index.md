@@ -13,8 +13,8 @@ sftp gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
 ```
 Type in password: `HPE@cc3$$4SFTP`
 
-```bash
-gl4f_probe@halo.storagelr5.ext.hpe.com's password: 
+```markdown
+gl4f_probe@halo.storagelr5.ext.hpe.com's password:
 Connected to halo.storagelr5.ext.hpe.com.
 Fetching /935553.probe.bundle.tar.gz to ./935553.probe.bundle.tar.gz
 ```
