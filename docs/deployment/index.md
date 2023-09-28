@@ -6,35 +6,18 @@ The HPE GreenLake for File Storage Data Reduction Estimation Probe provides esti
 
 ## Download 
 
-You can download the bundle from here: [935553.probe.bundle.tar.gz](https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D) and [scp](https://linux.die.net/man/1/scp) or [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
+Download using [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
 
-Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:
-
-<!-- ```bash
-wget "https://github.com/hpe-storage/hpe-gl4f-probe/deployment/935553.probe.bundle.tar.gz" -O 935553.probe.bundle.tar.gz
-``` -->
-
-Americas:
 ```markdown
-wget "https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D" -O 935553.probe.bundle.tar.gz
+% sftp gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
+The authenticity of host 'halo.storagelr5.ext.hpe.com (63.215.98.146)' can't be established.
 ```
-
-Europe:
-
-```markdown
-wget "https://vastdatasupporteuwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:51Z&se=2026-04-24T23:46:51Z&spr=https&sv=2021-12-02&sr=b&sig=Nska0jbs3Fz%2BrX7IavgLBq8lZeoLyo3n2sQ%2Bz3CrdOM%3D" -O 935553.probe.bundle.tar.gz
-```
-
-Asia/Pacific:
+Type in password: `HPE@cc3$$4SFTP`
 
 ```markdown
-wget "https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:47:22Z&se=2026-04-24T23:47:22Z&spr=https&sv=2021-12-02&sr=b&sig=EURsk5b4LHKM%2Bk32qyVMiab%2FZXnfIodpDiTCm5wB%2F1w%3D" -O 935553.probe.bundle.tar.gz 
-```
-
-South Africa:
-
-```markdown
-wget "https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:13Z&se=2026-04-24T23:46:13Z&spr=https&sv=2021-12-02&sr=b&sig=mw%2BBoG6YYy7TTA%2B8ga5zzfWZDdOwjJ9al6ot2Z7b6wQ%3D" -O 935553.probe.bundle.tar.gz
+gl4f_probe@halo.storagelr5.ext.hpe.com's password: 
+Connected to halo.storagelr5.ext.hpe.com.
+Fetching /935553.probe.bundle.tar.gz to ./935553.probe.bundle.tar.gz
 ```
 
 
@@ -194,7 +177,36 @@ Refer to the [Troubleshooting](../troubleshooting/index.md) document and contact
 
 
 
+<!--  
 
+You can download the bundle from here: [935553.probe.bundle.tar.gz](https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D) and [scp](https://linux.die.net/man/1/scp) or [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
+
+Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:
+
+Americas:
+```markdown
+wget "https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D" -O 935553.probe.bundle.tar.gz
+```
+
+Europe:
+
+```markdown
+wget "https://vastdatasupporteuwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:51Z&se=2026-04-24T23:46:51Z&spr=https&sv=2021-12-02&sr=b&sig=Nska0jbs3Fz%2BrX7IavgLBq8lZeoLyo3n2sQ%2Bz3CrdOM%3D" -O 935553.probe.bundle.tar.gz
+```
+
+Asia/Pacific:
+
+```markdown
+wget "https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:47:22Z&se=2026-04-24T23:47:22Z&spr=https&sv=2021-12-02&sr=b&sig=EURsk5b4LHKM%2Bk32qyVMiab%2FZXnfIodpDiTCm5wB%2F1w%3D" -O 935553.probe.bundle.tar.gz 
+```
+
+South Africa:
+
+```markdown
+wget "https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:13Z&se=2026-04-24T23:46:13Z&spr=https&sv=2021-12-02&sr=b&sig=mw%2BBoG6YYy7TTA%2B8ga5zzfWZDdOwjJ9al6ot2Z7b6wQ%3D" -O 935553.probe.bundle.tar.gz
+```
+
+-->
 
 
 <!-- 
