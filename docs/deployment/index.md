@@ -6,7 +6,7 @@ The HPE GreenLake for File Storage Data Reduction Estimation Probe provides esti
 
 ## Download 
 
-You can download the bundle from here: [935553.probe.bundle.tar.gz](935553.probe.bundle.tar.gz) and [scp](https://linux.die.net/man/1/scp) or [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
+You can download the bundle from here: [935553.probe.bundle.tar.gz](https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D) and [scp](https://linux.die.net/man/1/scp) or [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
 
 Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:
 
@@ -16,7 +16,7 @@ wget "https://github.com/hpe-storage/hpe-gl4f-probe/deployment/935553.probe.bund
 
 Americas:
 ```markdown
-wget "https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-20T12:46:21Z&se=2023-07-31T20:46:21Z&spr=https&sv=2021-12-02&sr=b&sig=r%2B0sacAOQ68zqS0rtXhrC9XeHK5pC08m3ImkMUE6aac%3D" -O 935553.probe.bundle.tar.gz
+wget "https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D" -O 935553.probe.bundle.tar.gz
 ```
 
 Europe:
@@ -34,7 +34,7 @@ wget "https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bund
 South Africa:
 
 ```markdown
-wget "https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bun
+wget "https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-04-24T15:46:13Z&se=2026-04-24T23:46:13Z&spr=https&sv=2021-12-02&sr=b&sig=mw%2BBoG6YYy7TTA%2B8ga5zzfWZDdOwjJ9al6ot2Z7b6wQ%3D" -O 935553.probe.bundle.tar.gz
 ```
 
 
