@@ -13,6 +13,12 @@ sftp gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
 ```
 Type in password when prompted: `HPE@cc3$$4SFTP`
 
+If sftp port has changed from the default value '22', use the following command:
+
+```bash
+sftp -P 22 gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
+```
+
 ## Expand & Verify Download
 
 Now that you've downloaded the probe, you'll need to untar it and then verify the download is correct.
