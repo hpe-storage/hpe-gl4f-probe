@@ -9,4 +9,4 @@ This documentation shows how to [check the prerequisites](prerequisites/index.md
 
 # Support
 
-Typically you would work with your HPE Sales engineer to deploy and use The HPE GreenLake for File Storage Data Reduction Estimation Probe. Should you have issues or additional questions you can contact us at [gl4fprobe@hpe.com](mailto:gl4fprobe@hpe.com).
+Typically you would work with your HPE Sales engineer to deploy and use The HPE GreenLake for File Storage Data Reduction Estimation Probe. Should HPE Sales engineers have issues or additional questions please contact us at Slack channel #ask-greenlake-for-filestorage.
