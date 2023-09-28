@@ -11,13 +11,7 @@ Download using [sftp](https://linux.die.net/man/1/sftp) to the Linux client that
 ```bash
 sftp gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
 ```
-Type in password: `HPE@cc3$$4SFTP`
-
-```bash
-% gl4f_probe@halo.storagelr5.ext.hpe.com's password: HPE@cc3$$4SFTP
-% Connected to halo.storagelr5.ext.hpe.com.
-% Fetching /935553.probe.bundle.tar.gz to ./935553.probe.bundle.tar.gz
-```
+Type in password when prompted: `HPE@cc3$$4SFTP`
 
 ## Expand & Verify Download
 
