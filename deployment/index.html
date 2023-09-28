@@ -139,23 +139,14 @@
 </ul>
 </div>
 <h2 id="download">Download<a class="headerlink" href="#download" title="Permanent link">&para;</a></h2>
-<p>You can download the bundle from here: <a href="https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-08-08T14:31:50Z&amp;se=2024-08-01T22:31:50Z&amp;spr=https&amp;sv=2022-11-02&amp;sr=b&amp;sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D">935553.probe.bundle.tar.gz</a> and <a href="https://linux.die.net/man/1/scp">scp</a> or <a href="https://linux.die.net/man/1/sftp">sftp</a> to the Linux client that you wish to run the probe.</p>
-<p>Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:</p>
-<!-- ```bash
-wget "https://github.com/hpe-storage/hpe-gl4f-probe/deployment/935553.probe.bundle.tar.gz" -O 935553.probe.bundle.tar.gz
-``` -->
-
-<p>Americas:</p>
-<p> <pre><code class=markdown>wget &quot;https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-08-08T14:31:50Z&amp;se=2024-08-01T22:31:50Z&amp;spr=https&amp;sv=2022-11-02&amp;sr=b&amp;sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D&quot; -O 935553.probe.bundle.tar.gz
+<p>Download using <a href="https://linux.die.net/man/1/sftp">sftp</a> to the Linux client that you wish to run the probe.</p>
+<p> <pre><code class=markdown>% sftp gl4f_probe@halo.storagelr5.ext.hpe.com:/935553.probe.bundle.tar.gz .
+The authenticity of host 'halo.storagelr5.ext.hpe.com (63.215.98.146)' can't be established.
 </code></pre></p>
-<p>Europe:</p>
-<p> <pre><code class=markdown>wget &quot;https://vastdatasupporteuwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:46:51Z&amp;se=2026-04-24T23:46:51Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=Nska0jbs3Fz%2BrX7IavgLBq8lZeoLyo3n2sQ%2Bz3CrdOM%3D&quot; -O 935553.probe.bundle.tar.gz
-</code></pre></p>
-<p>Asia/Pacific:</p>
-<p> <pre><code class=markdown>wget &quot;https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:47:22Z&amp;se=2026-04-24T23:47:22Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=EURsk5b4LHKM%2Bk32qyVMiab%2FZXnfIodpDiTCm5wB%2F1w%3D&quot; -O 935553.probe.bundle.tar.gz 
-</code></pre></p>
-<p>South Africa:</p>
-<p> <pre><code class=markdown>wget &quot;https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:46:13Z&amp;se=2026-04-24T23:46:13Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=mw%2BBoG6YYy7TTA%2B8ga5zzfWZDdOwjJ9al6ot2Z7b6wQ%3D&quot; -O 935553.probe.bundle.tar.gz
+<p>Type in password: <code>HPE@cc3$$4SFTP</code></p>
+<p> <pre><code class=markdown>gl4f_probe@halo.storagelr5.ext.hpe.com's password: 
+Connected to halo.storagelr5.ext.hpe.com.
+Fetching /935553.probe.bundle.tar.gz to ./935553.probe.bundle.tar.gz
 </code></pre></p>
 <h2 id="expand_verify_download">Expand &amp; Verify Download<a class="headerlink" href="#expand_verify_download" title="Permanent link">&para;</a></h2>
 <p>Now that you've downloaded the probe, you'll need to untar it and then verify the download is correct.</p>
@@ -275,6 +266,49 @@ To probe the directory riviting_data of 250 TB in-use and 1,250,000,000 files at
 </code></pre></p>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
 <p>Refer to the <a href="../troubleshooting/index.html">Troubleshooting</a> document and contact HPE Support.</p>
+<!--  
+
+You can download the bundle from here: [935553.probe.bundle.tar.gz](https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&st=2023-08-08T14:31:50Z&se=2024-08-01T22:31:50Z&spr=https&sv=2022-11-02&sr=b&sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D) and [scp](https://linux.die.net/man/1/scp) or [sftp](https://linux.die.net/man/1/sftp) to the Linux client that you wish to run the probe.
+
+Or you may choose to use wget to download the bundle directly on the Linux client that you wish to run the probe:
+
+Americas:
+
+
+
+
+ <pre><code class=markdown>wget &quot;https://vastdatasupport.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-08-08T14:31:50Z&amp;se=2024-08-01T22:31:50Z&amp;spr=https&amp;sv=2022-11-02&amp;sr=b&amp;sig=5zlspUUlKFfwHr%2BpDaE1UCWWeJMZLpCFHq5VQpujbHY%3D&quot; -O 935553.probe.bundle.tar.gz
+</code></pre>
+
+Europe:
+
+
+
+
+
+ <pre><code class=markdown>wget &quot;https://vastdatasupporteuwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:46:51Z&amp;se=2026-04-24T23:46:51Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=Nska0jbs3Fz%2BrX7IavgLBq8lZeoLyo3n2sQ%2Bz3CrdOM%3D&quot; -O 935553.probe.bundle.tar.gz
+</code></pre>
+
+Asia/Pacific:
+
+
+
+
+
+ <pre><code class=markdown>wget &quot;https://vastsupportjapanwest.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:47:22Z&amp;se=2026-04-24T23:47:22Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=EURsk5b4LHKM%2Bk32qyVMiab%2FZXnfIodpDiTCm5wB%2F1w%3D&quot; -O 935553.probe.bundle.tar.gz 
+</code></pre>
+
+South Africa:
+
+
+
+
+
+ <pre><code class=markdown>wget &quot;https://vastsupportsanorth.blob.core.windows.net/probe/935553.probe.bundle.tar.gz?sp=r&amp;st=2023-04-24T15:46:13Z&amp;se=2026-04-24T23:46:13Z&amp;spr=https&amp;sv=2021-12-02&amp;sr=b&amp;sig=mw%2BBoG6YYy7TTA%2B8ga5zzfWZDdOwjJ9al6ot2Z7b6wQ%3D&quot; -O 935553.probe.bundle.tar.gz
+</code></pre>
+
+-->
+
 <!-- 
 # TODO: delete 
 
